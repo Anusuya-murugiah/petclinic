@@ -13,4 +13,5 @@ spec:
   - type: Resource
     resource:
       name: memory
-      targetAverageUtilization: 50
+      type: Utilization  # ✅ Must explicitly specify the type
+          averageUtilization: 50  # ✅ Correct field name
